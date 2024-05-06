@@ -1533,13 +1533,30 @@
 											"height": 13,
 											"text": "+calcularDemora(): Duration",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGPTn8FKPzNvMs=",
+											"_parent": {
+												"$ref": "AAAAAAGPTg8Kxqche/Q="
+											},
+											"model": {
+												"$ref": "AAAAAAGPTn8FGPzK0Nc="
+											},
+											"font": "Arial;13;0",
+											"left": 1621,
+											"top": 684,
+											"width": 164.642578125,
+											"height": 13,
+											"text": "+comenzar(): void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1616,
 									"top": 664,
 									"width": 174.642578125,
-									"height": 23
+									"height": 38
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -1579,7 +1596,7 @@
 							"left": 1616,
 							"top": 616,
 							"width": 173.642578125,
-							"height": 71,
+							"height": 86,
 							"nameCompartment": {
 								"$ref": "AAAAAAGPTg8KxqcbEGM="
 							},
@@ -3132,7 +3149,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1634,
+									"left": 1630,
 									"top": 588,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3153,7 +3170,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 1623,
+									"left": 1618,
 									"top": 598,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -3174,7 +3191,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 1657,
+									"left": 1653,
 									"top": 569,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -3193,7 +3210,7 @@
 								"$ref": "AAAAAAGPTg8KxqcaJHc="
 							},
 							"lineStyle": 1,
-							"points": "1671:615;1621:556",
+							"points": "1666:615;1618:556",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGPThSkUv4mIfg="
@@ -5999,6 +6016,25 @@
 										"$ref": "AAAAAAGPTg8tjKdCNto="
 									},
 									"type": "Duration",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAGPTn8FGPzK0Nc=",
+							"_parent": {
+								"$ref": "AAAAAAGPTg8KxqcYWZw="
+							},
+							"name": "comenzar",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAGPTn8vDf7cB34=",
+									"_parent": {
+										"$ref": "AAAAAAGPTn8FGPzK0Nc="
+									},
+									"type": "void",
 									"direction": "return"
 								}
 							]
