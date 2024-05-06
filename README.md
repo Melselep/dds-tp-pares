@@ -44,4 +44,4 @@ calcularDemora() {
 
 ### Aclaración
 
-Tanto `TramoConEspera` como `TramoSinEspera` utilizan la funcción estática `calcularTiempo`, ya dicha clase contiene lógica de conversión Distancia a Tiempo. Así también es la clase que conoce y consume API “Distance Matrix”.
+Tanto `TramoConEspera` como `TramoSinEspera` utilizan la funcción estática `calcularTiempo`, ya que dicha clase contiene lógica de conversión Distancia a Tiempo. Así también, es la clase que conoce y consume API “Distance Matrix”.
